@@ -1,0 +1,83 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #e8e6f5;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 4px;
+  color: #a49fc4;
+}
+
+/* Summary statistics */
+.stats {
+  display: flex;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #241f45;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #a49fc4;
+}
+
+/* Search bar and filter */
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  border: 1px solid #4a4278;
+  border-radius: 8px;
+  background: #1b1735;
+  color: #e8e6f5;
+  font-size: 14px;
+}
+
+.controls input {
+  flex: 1;
+}
+
+/* Data table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #35305c;
+}
+
+th {
+  color: #a49fc4;
+  font-size: 14px;
+}
