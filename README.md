@@ -2,7 +2,7 @@
 
 Submitted by: **Maanya Shukla**
 
-This web app: **is a data dashboard that provides an at-a-glance summary of information gathered from a public weather API**
+This web app: **is a data dashboard that provides an at-a-glance summary of information gathered from a public weatherbit API**
 
 Time spent: **5** hours spent in total
 
