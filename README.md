@@ -1,8 +1,8 @@
-# Web Development Project 5 - *AstroDash *
+# Web Development Project 6 - *Astrodash 2*
 
 Submitted by: **Maanya Shukla**
 
-This web app: **is a data dashboard that provides an at-a-glance summary of information gathered from a public weatherbit API**
+This web app: **is a data dashboard that provides an at-a-glance summary of information gathered from a public weatherbit API. There are added data visualizations to the dashboard view a detailed view containing more info related to a given data point.**
 
 Time spent: **5** hours spent in total
 
@@ -10,30 +10,26 @@ Time spent: **5** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard should display at least 10 unique items, one per row
-  - The dashboard includes at least two features in each row
-- [x] **`useEffect` React hook and `async`/`await` are used**
-- [x] **The app dashboard includes at least three summary statistics about the data** 
-  - The app dashboard includes at least three summary statistics about the data, such as:
-    - *forecast days*
-    - *average low*
-    - *brightest moon*
-- [x] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar **correctly** filters items in the list, only displaying items matching the search query
-  - The list of results dynamically updates as the user types into the search bar
-- [x] **An additional filter allows the user to restrict displayed items by specified categories**
-  - The filter restricts items in the list using a **different attribute** than the search bar 
-  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-  - The dashboard list dynamically updates as the user adjusts the filter
+- [x] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
+- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts should be incorporated into the dashboard view of the site
+  - Each chart should describe a different aspect of the dataset
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [x] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
+- [x] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
+  
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
@@ -43,16 +39,16 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <div>
-    <a href="https://www.loom.com/share/ec31db4aee79464c964bdbd232aa7793">
-      <p>AstroDash - Watch Video</p>
+    <a href="https://www.loom.com/share/821dc3ccbcf34fc99610e7208e017f16">
+      <p>AstroDash pt. 2 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/ec31db4aee79464c964bdbd232aa7793">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ec31db4aee79464c964bdbd232aa7793-3c56dd945eb60397-full-play.gif#t=0.1">
+    <a href="https://www.loom.com/share/821dc3ccbcf34fc99610e7208e017f16">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/821dc3ccbcf34fc99610e7208e017f16-c7bcdc801923ecda-full-play.gif#t=0.1">
     </a>
   </div>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Loom 
+GIF created with Loom
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -60,8 +56,7 @@ GIF created with Loom
 
 ## Notes
 
-The Weather API caps number of days per city to 7 because of which, I wasn't able to hit the minimum 10 rows requirement. I approached this problem by adding 2 cities' data to my dashboard. This allows me to have 14 rows of weather data, going above the minimum requirement. 
-
+I have never incorporated graphs in my code before, so that was a challenge. But, I learned how to do it today.
 ## License
 
     Copyright [2026] [Maanya Shukla]
